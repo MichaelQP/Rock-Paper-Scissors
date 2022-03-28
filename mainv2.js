@@ -52,3 +52,6 @@ function getResult() {
     }
     resultDisplay.innerHTML = result
 }
+
+
+//I still need to add a section that keeps track of score between each player over 5 rounds.
