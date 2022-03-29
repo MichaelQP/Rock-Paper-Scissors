@@ -5,6 +5,8 @@ const possibleChoices = document.querySelectorAll('button')
 let userChoice
 let computerChoice
 let result
+let userScore = 0;
+let computerScore = 0;
 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -51,7 +53,16 @@ function getResult() {
         result = 'you lose!'
     }
     resultDisplay.innerHTML = result
+
 }
 
 
 //I still need to add a section that keeps track of score between each player over 5 rounds.
+//loop 5 games
+if (result = 'you win!' || 'you WIN!') {
+    userScore++;
+}
+
+if (resulet = 'you lose!') {
+    computerScore++;
+}
