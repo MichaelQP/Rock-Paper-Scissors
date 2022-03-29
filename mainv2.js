@@ -59,10 +59,13 @@ function getResult() {
 
 //I still need to add a section that keeps track of score between each player over 5 rounds.
 //loop 5 games
-if (result = 'you win!' || 'you WIN!') {
+function scoreKeep() {
+    if (result = 'you win!' || 'you WIN!') {
     userScore++;
 }
 
-if (resulet = 'you lose!') {
+    if (resulet = 'you lose!') {
     computerScore++;
+    }
+
 }
